@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #12141E;
+    overflow-x: hidden;
+}
+
+section.base-meio {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    justify-content: flex-start;
+    align-items: flex-start; /* Alinha os itens ao topo */
+    margin-left: 60px; /* Aumenta a margem à esquerda */
+    margin-top: 100px; /* Adiciona margem ao topo */
+}
+
+div.base-container {
+    display: flex;
+    flex-direction: column; /* Coloca base e base-ant em coluna */
+    width: 35%; /* Ajuste a largura conforme necessário */
+}
+
+section.base {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 35px; /* Adiciona margem à esquerda */
+}
+
+section.base img {
+    width: 100px; /* Tamanho da imagem */
+    margin-right: 10px; /* Espaço entre a imagem e o h2 */
+}
+
+section.base h2 {
+    font-size: 2em; /* Tamanho da fonte */
+    margin: 0; /* Remove margem para alinhar com a imagem */
+}
+
+section.base-ant {
+    display: flex;
+    flex-direction: column; /* Elementos em coluna */
+    width: 100%;
+    margin-left: 60px; /* Adiciona margem à esquerda */
+}
+
+section.base-ant h1 {
+    color: white;
+    font-size: 3em; /* Tamanho da fonte */
+    margin-top: 10px; /* Espaço entre h1 e h2 */
+}
+
+section.base-lado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Ajuste a largura conforme necessário */
+    height: 100%; /* Ajuste a altura conforme necessário */
+    margin-left: 100px; /* Aumenta a margem à esquerda */
+    margin-top: 40px; /* Aumenta a margem ao topo */
+    margin-bottom: 40px; /* Adiciona margem ao fundo */
+}
+
+section.base-lado video {
+    width: 100%;
+    height: 528px; /* Aumenta a altura do vídeo */
+    border-radius: 15px; /* Borda arredondada */
+    margin-bottom: 10px;
+    object-fit: cover; /* Ajusta o vídeo para cobrir o contêiner */
+    box-shadow: 0 0 100px #271624; /* Adiciona efeito de luz em volta */
+}
+
+section.sec-p {
+    margin-left: 60px; /* Adiciona margem à esquerda */
+    color: white;
+    font-size: 1.5em; /* Tamanho da fonte */
+    margin-top: 5px; /* Espaço entre a nova seção e o h1 */
+}
+
+section.botao-start button {
+    background-color: #04b5fb; /* Fundo azul ciano */
+    color: black;
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 1.2em; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+    margin-left: 60px;
+    border-radius: 10px;
+}
+
+section.botao-start button:hover {
+    background-color: #72D3FF; /* Cor de fundo ao passar o mouse */
+}

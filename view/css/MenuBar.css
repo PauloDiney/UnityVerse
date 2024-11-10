@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-bar {
+    background-color: #0F0E12;
+    display: flex;
+    justify-content: flex-start; /* Espaço entre a logo e os links */
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+}
+
+.menu-bar a {
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: color 0.3s ease; /* Adiciona transição suave */
+}
+
+.menu-bar a:hover {
+    color: rgb(194, 194, 214); /* Cor ao passar o mouse */
+}
+
+.logo {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.logo img {
+    height: 5vh; /* Ajuste conforme necessário */
+    width: auto;
+    border-radius: 50%;
+}
+
+.menu-links {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    margin-left: auto; /* Empurra a barra de pesquisa para o lado direito */
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    padding: 10px;
+    width: 0;
+    height: 40px;
+    background: none;
+    border: 2px solid #ececec;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #ececec;
+    outline: none;
+    transition: width 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.box:hover .input {
+    width: 200px;
+    background: #3b3640;
+    border-radius: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+
+#search-icon {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 24px; /* Aumenta o tamanho do ícone */
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; /* Espaçamento entre barra de pesquisa e botão de login */
+    margin-right: 30px;
+}
+
+.login-button button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-fill-secondary-default, rgba(255, 255, 255, .15));
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adiciona transição suave */
+}
+
+.login-button button:hover {
+    background-color: #636366; /* Cor de fundo ao passar o mouse */
+}
