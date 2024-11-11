@@ -14,7 +14,6 @@
 <body>
     <?php
     include './view/Components/MenuBarra.php';
-    renderMenuBar();
     ?>
     <section class="base-meio">
         <div class="base-container">
@@ -29,14 +28,14 @@
                 <p>Aqui você irá aprender por onde começar, onde criar, como criar e como expressar sua criatividade através de métodos utilizados por profissionais. Aprenderá o básico sobre as ferramentas e design também.</p>
             </section>
             <section class="botao-start">
-                <button >Começar!</button>
+                <button>Começar!</button>
             </section>
         </div>
         <section class="base-lado">
             <video src="./view/Movies/1.mp4" loop autoplay muted></video>
         </section>
     </section>
-    <script src="./view/js/menu.js"></script> 
+    <script src="./view/js/menu.js"></script>
 </body>
 
 </html>
