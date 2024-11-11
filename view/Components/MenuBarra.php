@@ -1,13 +1,13 @@
 <div class="menu-bar">
     <div class="logo">
-        <img src="./view/img/logo.png" alt="UnityVerse">
+        <img src="/UnityVerse/view/img/logo.png" alt="UnityVerse">
         <span><strong>UnityVerse</strong></span>
     </div>
     <div class="menu-links">
         <div class="dropdown">
             <button class="dropbtn">Conteudos</button>
             <div class="dropdown-content">
-                <a href="#link1">Engines</a>
+                <a href="/UnityVerse/view/pages/engines.php">Engines</a>
                 <a href="#link2">Modelagens</a>
                 <a href="#link3">Inspiração</a>
             </div>

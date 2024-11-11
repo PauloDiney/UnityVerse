@@ -13,7 +13,6 @@
 
     <?php
     include '../Components/MenuBarra.php';
-    renderMenuBar();
     ?>
 
     </body>
