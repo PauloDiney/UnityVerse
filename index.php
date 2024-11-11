@@ -36,7 +36,7 @@
             <video src="./view/Movies/1.mp4" loop autoplay muted></video>
         </section>
     </section>
-    <script src="./view/js/menu.js"></script> <!-- Adicione esta linha -->
+    <script src="./view/js/menu.js"></script> 
 </body>
 
 </html>
