@@ -1,0 +1,63 @@
+.unity-base-meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.unity-base-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unity-base img {
+    width: 400px;
+    height: auto;
+   
+}
+
+.unity-base h2 {
+    font-size: 3em;
+    color: white;
+}
+
+.unity-info-container {
+    background-color: rgb(32, 32, 32);
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: auto;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    
+}
+
+.unity-info-container .text-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+     /* Adicione margem à direita para espaçamento entre o texto e o vídeo */
+}
+
+.unity-info-container h2 {
+    margin-left: 10px;
+    margin-bottom: 10px; /* Adicione margem inferior para espaçamento entre o h2 e o p */
+    font-size: 2em;
+}
+
+.unity-info-container p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+.unity-info-container video {
+    width: 900px;
+    height: auto;
+    border-radius: 0 10px 10px 0;
+    margin-left: 10px; /* Add some space between text and video */
+}

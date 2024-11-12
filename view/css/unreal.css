@@ -1,0 +1,64 @@
+
+
+.unreal-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.unreal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unreal img {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: auto;
+}
+
+.unreal h2 {
+    font-size: 3em;
+    color: white;
+}
+
+.unreal-info {
+    background-color: rgb(32, 32, 32);
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: auto;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.unreal-info .unreal-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.unreal-info h2 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.unreal-info p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+.unreal-info video {
+    width: 900px;
+    height: auto;
+    border-radius: 0 10px 10px 0;
+    margin-left: 10px;
+}
