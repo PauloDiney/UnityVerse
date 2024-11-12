@@ -1,23 +1,23 @@
 <div class="menu-bar">
-    <div class="logo">
+    <a  href="/UnityVerse/index.php" class="logo">
         <img src="/UnityVerse/view/img/logo.png" alt="UnityVerse">
         <span><strong>UnityVerse</strong></span>
-    </div>
+
+    </a>
     <div class="menu-links">
         <div class="dropdown">
             <button class="dropbtn">Conteudos</button>
             <div class="dropdown-content">
                 <a href="/UnityVerse/view/pages/engines.php">Engines</a>
-                <a href="#link2">Modelagens</a>
-                <a href="#link3">Inspiração</a>
+                <a href="/UnityVerse/view/pages/modelagens.php">Modelagens</a>
+                <a href="/UnityVerse/view/pages/inspiração.php">Inspiração</a>
             </div>
         </div>
         <div class="dropdown">
             <button class="dropbtn">Aulas</button>
             <div class="dropdown-content">
-                <a href="#link1">Mercado</a>
-                <a href="#link2">Programação</a>
-                <a href="#link3">Modelagens</a>
+                <a href="/UnityVerse/view/pages/mercados.php">Mercado</a>
+                <a href="/UnityVerse/view/pages/programacao.php">Programação</a>
             </div>
         </div>
         <div class="dropdown">
@@ -35,6 +35,6 @@
         </form>
     </div>
     <div class="login-button">
-        <a href="./view/pages/login.php"><button><strong>Login</strong></button></a>
+        <a href="/UnityVerse/view/pages/login.php"><button><strong>Login</strong></button></a>
     </div>
 </div>
