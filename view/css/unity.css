@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 50px;
 }
 
 .unity-base-container {
@@ -33,6 +34,8 @@
     text-align: left;
     display: flex;
     align-items: center;
+    margin-top: 50px;
+    
     
 }
 
@@ -60,4 +63,67 @@
     height: auto;
     border-radius: 0 10px 10px 0;
     margin-left: 10px; /* Add some space between text and video */
+}
+
+.unity-image-section {
+    
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.unity-image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.unity-image-wrapper img {
+    width: 1550px; /* Ajuste a largura conforme necessário */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #3a5580;
+}
+
+.unity-container-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.unity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+.unity-container img {
+   
+    width: 400px;
+    transition: 0.3s ease;
+    height: 250px;
+}
+
+.unity-container img:hover {
+    width: 450px;
+    height: 300px;
+}
+
+.unity-container a {
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha o texto ao centro */
+}
+
+.unity-container h1, .unity-container p {
+    margin: 5px 0; /* Adiciona margem para espaçamento */
 }
